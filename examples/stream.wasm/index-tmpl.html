@@ -340,7 +340,7 @@
 
             function onStart() {
                 if (!instance) {
-                    instance = Module.init('whisper.bin');
+                    instance = Module.init('whisper.bin', 'zh');
 
                     if (instance) {
                         printTextarea("js: whisper initialized, instance: " + instance);
